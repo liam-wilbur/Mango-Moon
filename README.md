@@ -36,14 +36,6 @@ https://forum.arduino.cc/t/reading-rotary-encoders-as-a-state-machine/937388?_gl
 6. Xiaolin Wu's Line Algorithm Video - Incredibly helpful walkthrough of the logic of Xiaolin Wu's line algorithm which served me well for antialiasing. I originally attempted to use the Gupta Sproull algorithm based off its wikipedia page, but it failed when the slope of the line was greater than 1. After switching, it wasn't too difficult to implement.
 https://www.youtube.com/watch?v=f3Rs20k-hcI
 
-## Self-evaluation
+## Reflection
 
 We feel very happy with how many of our reach goals we were able to tackle! We feel that we struck a good balance in the movement system between being fun to maneuver, responsive, and appropriately challenging. We're proud of the aesthetics of the project, and the graphics performance choices we were able to implement to create smooth animation, minimize the redrawn portion of the screen, and transition quickly between scenes. We learned a lot about the pipeline for game state management, sprite instantiation / graphical redrawing, and creating satisfying interactions between hardware and gameplay. The end product is something we are so proud of and excited to show off.
-
-## VIDEO DEMO
-
-Full Demo
-https://www.youtube.com/watch?v=Rgz2xvjeFv8
-
-2X Speed
-https://www.youtube.com/watch?v=WcCZ6NbiHEM 
