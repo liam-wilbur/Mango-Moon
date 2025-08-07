@@ -3,7 +3,7 @@ import ProjectDetails from "@/components/ProjectDetails";
 import { ParticleSystem } from "@/components/ParticleSystem";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ExternalLink, Github, Rocket } from "lucide-react";
+import { ExternalLink, Github, Rocket, PlayCircle } from "lucide-react";
 
 const Index = () => {
   return (
@@ -77,11 +77,22 @@ const Index = () => {
               <Github className="w-4 h-4" />
             </a>
             <CardContent className="p-8">
-              <VideoSection
-                title="Terminal Interface Demo"
-                videoUrl="https://www.youtube.com/watch?v=Rgz2xvjeFv8"
-                description="Custom terminal interface and development tools built from scratch"
-              />
+              <div className="space-y-4">
+                <h3 className="text-2xl font-bold text-foreground text-2xl font-bold text-mango mb-2">Terminal Interface Demo</h3>
+                <p className="text-muted-foreground">
+                  Custom terminal interface and development tools built from scratch
+                </p> 
+                <br />
+                {/* Video Placeholder */}
+                <div className="relative bg-gradient-to-br from-gray-800/50 to-gray-900/50 rounded-lg border-2 border-dashed border-gray-600/50 aspect-video flex flex-col items-center justify-center text-center p-8 relative w-full aspect-video rounded-lg overflow-hidden border-border">
+                  <PlayCircle className="w-16 h-16 text-gray-400 mb-4" />
+                  <h4 className="text-lg font-semibold text-gray-300 mb-2">Video Not Available</h4>
+                  <div className="mt-4 px-3 py-1 bg-yellow-400/20 border border-yellow-400/30 rounded-full flex items-center justify-center">
+                    <span className="text-xs text-yellow-300 font-medium">Coming Soon</span>
+                  </div>
+                </div>
+                
+              </div>
             </CardContent>
           </Card>
         </div>
