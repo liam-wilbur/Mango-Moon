@@ -1,5 +1,5 @@
 {
-  "name": "Mango Moon - Voice-Controlled Lunar Lander",
+  "name": "Mango Moon",
   "short_name": "Mango Moon",
   "description": "A 70s arcade-style Lunar Lander game with voice-controlled thrusters, built from scratch on Mango Pi hardware",
   "icons": [
