@@ -1,8 +1,4 @@
-## Project title
-
-Mango Moon
-
-## Team members
+## Mango Moon
 
 Liam Wilbur and Weston Keller
 
